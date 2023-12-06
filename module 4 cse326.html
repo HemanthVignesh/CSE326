@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #45a049;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+    </header>
+
+    <section>
+        <h2>Developer Feedback</h2>
+        <form action="#" method="post">
+            <label for="developerName">Your Name:</label>
+            <input type="text" id="developerName" name="developerName" required>
+
+            <label for="developerEmail">Your Email:</label>
+            <input type="email" id="developerEmail" name="developerEmail" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+</body>
+</html>
